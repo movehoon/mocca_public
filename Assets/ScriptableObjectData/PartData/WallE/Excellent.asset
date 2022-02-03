@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59600bfd7aed313479d27eae29bac99a, type: 3}
+  m_Name: Excellent
+  m_EditorClassIdentifier: 
+  faceName: excellent
+  faceParts:
+  - facePartEnum: 0
+    partSprite: {fileID: 21300000, guid: 0c794a73318acec4180c5cc22e8dd057, type: 3}
+    partPosition: {x: -362, y: 122}
+  - facePartEnum: 1
+    partSprite: {fileID: 21300000, guid: 03c5a3ed6ebddcc4297f19f3ad63592c, type: 3}
+    partPosition: {x: -356, y: 105}
+  - facePartEnum: 2
+    partSprite: {fileID: 21300000, guid: 76973eca015017c4b84a09b4f5796ce4, type: 3}
+    partPosition: {x: 348, y: 122}
+  - facePartEnum: 3
+    partSprite: {fileID: 21300000, guid: f9b901a661fc5ea4c8444327d31b107e, type: 3}
+    partPosition: {x: 354, y: 101}
+  - facePartEnum: 4
+    partSprite: {fileID: 21300000, guid: 3f1ea4ef3a5c0f54184fc25b56f19ac2, type: 3}
+    partPosition: {x: -355, y: -79}
+  - facePartEnum: 5
+    partSprite: {fileID: 21300000, guid: 6af0ef473988a234b95d6502970f1289, type: 3}
+    partPosition: {x: 363, y: -79}
+  - facePartEnum: 6
+    partSprite: {fileID: 21300000, guid: 4abef24756699634c8716b7eba187a19, type: 3}
+    partPosition: {x: 0, y: -185}
+  - facePartEnum: 7
+    partSprite: {fileID: 21300000, guid: 7c5a109b441abb84e9a1c200e77f9638, type: 3}
+    partPosition: {x: -7, y: 13}
+  animDemensions: []

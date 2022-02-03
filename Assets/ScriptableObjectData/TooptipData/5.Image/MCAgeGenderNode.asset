@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015e8c0d4b652de4cb7951765745d78c, type: 3}
+  m_Name: MCAgeGenderNode
+  m_EditorClassIdentifier: 
+  nodeType: 4003
+  tooltipImageSprite: {fileID: 21300000, guid: fdfc4f42302088146a6408e7864d2746, type: 3}
+  nodeName: "\uB098\uC774\uB300\uC640 \uC131\uBCC4 \uC778\uC2DD"
+  inputTexts:
+  - "\uC785\uB825 : String "
+  outputTexts:
+  - "\uCD9C\uB825 : String, String List"
+  descTexts: "\uC124\uBA85 : \uC785\uB825\uC73C\uB85C Image String\uC744 \uBC1B\uC544
+    \uC131\uACF5, \uC2E4\uD328\uC5EC\uBD80 \uB530\uB77C \uC5F0\uB839\uB300, \uC131\uBCC4
+    \uCD9C\uB825"

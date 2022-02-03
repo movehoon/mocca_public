@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59600bfd7aed313479d27eae29bac99a, type: 3}
+  m_Name: Refuse
+  m_EditorClassIdentifier: 
+  faceName: refuse
+  faceParts:
+  - facePartEnum: 0
+    partSprite: {fileID: 21300000, guid: 8d5a5a63ba26b4b42b8ebad1faf7ba8e, type: 3}
+    partPosition: {x: 0, y: 0}
+  - facePartEnum: 1
+    partSprite: {fileID: 21300000, guid: b7dcef2294a204015addbae82d76e0c5, type: 3}
+    partPosition: {x: 0, y: 0}
+  - facePartEnum: 2
+    partSprite: {fileID: 21300000, guid: 1d568a9d319104f66a1f0a7509d11d3b, type: 3}
+    partPosition: {x: 0, y: 0}
+  - facePartEnum: 3
+    partSprite: {fileID: 21300000, guid: 5959f109a58c0444787df5042daae9b0, type: 3}
+    partPosition: {x: 0, y: 0}
+  - facePartEnum: 12
+    partSprite: {fileID: 21300000, guid: c275ca38a16254d28a859859a14d7aca, type: 3}
+    partPosition: {x: 0, y: 0}
+  - facePartEnum: 13
+    partSprite: {fileID: 21300000, guid: 7237a5fca21844fb2bee9f01c9f42d00, type: 3}
+    partPosition: {x: 0, y: 0}
+  - facePartEnum: 6
+    partSprite: {fileID: 21300000, guid: 1bde58bf59e644777b440f7022cbcff3, type: 3}
+    partPosition: {x: 0, y: 0}
+  animDemensions:
+  - facePart: 12
+    type: 4
+    parameter:
+      scale: 1
+      defaultValue: 0
+      amount: 0.2
+      changeSprite: {fileID: 0}
+  - facePart: 13
+    type: 4
+    parameter:
+      scale: 1
+      defaultValue: 0
+      amount: 0.2
+      changeSprite: {fileID: 0}
+  - facePart: 1
+    type: 1
+    parameter:
+      scale: 1
+      defaultValue: 0.7
+      amount: 0.1
+      changeSprite: {fileID: 0}
+  - facePart: 3
+    type: 1
+    parameter:
+      scale: 1
+      defaultValue: 0.7
+      amount: 0.1
+      changeSprite: {fileID: 0}
+  - facePart: 6
+    type: 2
+    parameter:
+      scale: 1
+      defaultValue: -6
+      amount: 12
+      changeSprite: {fileID: 0}

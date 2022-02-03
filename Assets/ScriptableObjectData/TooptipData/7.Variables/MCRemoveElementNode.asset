@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015e8c0d4b652de4cb7951765745d78c, type: 3}
+  m_Name: MCRemoveElementNode
+  m_EditorClassIdentifier: 
+  nodeType: 409
+  tooltipImageSprite: {fileID: 21300000, guid: 9cede1ad1db09244999a5ab6e38065cd, type: 3}
+  nodeName: "\uD56D\uBAA9 [] \uC0AD\uC81C"
+  inputTexts:
+  - "\uC785\uB825 : List, List Data Type \uAC12"
+  outputTexts:
+  - "\uCD9C\uB825 : Bool"
+  descTexts: "\uC124\uBA85 : List\uC5D0 \uC788\uB294 \uAC12 \uC911\uC5D0\uC11C \uC5F0\uACB0\uB41C
+    \uB370\uC774\uD130\uB97C \uCC3E\uC544 \uD574\uB2F9 \uC694\uC18C \uC81C\uAC70"

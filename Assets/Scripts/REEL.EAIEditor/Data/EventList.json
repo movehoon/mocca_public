@@ -1,0 +1,107 @@
+[
+  {
+    "categoryName": "Touch Activity",
+    "eventList": [
+      "Front Head Touched",
+      "Left Bumper Touched",
+      "Right Bumper Touched"
+    ]
+  },
+  {
+    "categoryName": "Voice Activity",
+    "eventList": [
+      "Start Speech",
+      "End Speed",
+      "Silency Detected"
+    ]
+  },
+  {
+    "categoryName": "Sound Localization",
+    "eventList": [
+      "Loud Sound Detected"
+    ]
+  },
+  {
+    "categoryName": "Face Detection",
+    "eventList": [
+      "Face Detected",
+      "Face Disappeared"
+    ]
+  },
+  {
+    "categoryName": "Face recognition",
+    "eventList": [
+      "Face Recognized"
+    ]
+  },
+  {
+    "categoryName": "Person Identification",
+    "eventList": [
+      "Person Identified"
+    ]
+  },
+  {
+    "categoryName": "Engagement Detection",
+    "eventList": [
+      "Person Engaged",
+      "Person Disengaged"
+    ]
+  },
+  {
+    "categoryName": "Lip Reading",
+    "eventList": [
+      "Lip Talking Started",
+      "Lip Talking Finished"
+    ]
+  },
+  {
+    "categoryName": "Intention Recognition",
+    "eventList": [
+      "Intention Affirmation",
+      "Intention Negation",
+      "Intention Attention"
+    ]
+  },
+  {
+    "categoryName": "People Detection",
+    "eventList": [
+      "Number of Guests Changed"
+    ]
+  },
+  {
+    "categoryName": "Presence Detection",
+    "eventList": [
+      "Person Approached",
+      "Person Left"
+    ]
+  },
+  {
+    "categoryName": "Proxemics Detection",
+    "eventList": [
+      "Person Entered Zone"
+    ]
+  },
+  {
+    "categoryName": "Saliency Detection",
+    "eventList": [
+      "Saliency Changed"
+    ]
+  },
+  {
+    "categoryName": "Environment Detection",
+    "eventList": [
+      "Environment Detection"
+    ]
+  },
+  {
+    "categoryName": "Posture Change",
+    "eventList": [
+      "Top-up",
+      "Front-up",
+      "Rear-up",
+      "Right-up",
+      "Left-up",
+      "Bottom-up"
+    ]
+  }
+]

@@ -1,0 +1,660 @@
+{
+  "categories": [
+    {
+      "categoryName": "Process",
+      "items": [
+        {
+          "imagePath": "EditorImages/Blocks/StartIcon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Start",
+          "nodeType": "START"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/StopIcon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Stop",
+          "nodeType": "STOP"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/pause04",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Pause",
+          "nodeType": "PAUSE"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/resume01",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Resume",
+          "nodeType": "RESUME"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/delay_icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Delay",
+          "nodeType": "DELAY"
+        }
+      ]
+    },
+    {
+      "categoryName": "Debug",
+      "items": [
+        {
+          "imagePath": "EditorImages/Blocks/LogIcon_w",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Log",
+          "nodeType": "LOG"
+        }
+      ]
+    },
+    {
+      "categoryName": "Robot",
+      "items": [
+        {
+          "imagePath": "EditorImages/Blocks/Say_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Say",
+          "nodeType": "SAY"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Expression_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Express",
+          "nodeType": "EXPRESS"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Facial_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Facial",
+          "nodeType": "FACIAL"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Motion_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Gesture",
+          "nodeType": "MOTION"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Mobility_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Move",
+          "nodeType": "MOBILITY"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/saystop01",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Stop Speech",
+          "nodeType": "SAY_STOP"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/expressstop02",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Stop Expression",
+          "nodeType": "EXPRESS_STOP"
+        }
+      ]
+    },
+    {
+      "categoryName": "Text & Speech",
+      "items": [
+        {
+          "imagePath": "EditorImages/Blocks/SpeechRec_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Listen to Input",
+          "nodeType": "SPEECH_REC"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/YesNo_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Positive or Negative?",
+          "nodeType": "YESNO"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/picknum",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Extract Number",
+          "nodeType": "PICKNUM"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/Choice",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Extract Choice",
+          "nodeType": "CHOICE"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/strcat01",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Concatenate Texts",
+          "nodeType": "STRCAT"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Chatbot",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Chatbot",
+          "nodeType": "CHAT"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/UserAPI_v4",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "User API",
+          "nodeType": "USER_API"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/camera",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "User API Camera",
+          "nodeType": "USER_API_CAMERA"
+        }
+      ]
+    },
+
+    {
+      "categoryName": "Image",
+      "items": [
+        {
+          "imagePath": "EditorImages/Blocks/Gender_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Recognize Gender",
+          "nodeType": "GENDER"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Emotion_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Recognize Emotion",
+          "nodeType": "EMOTION"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/detectperson",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Detect People",
+          "nodeType": "DETECT_PERSON"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/recogface",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Recognize Face",
+          "nodeType": "RECOG_FACE"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/recogface",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Delete Face",
+          "nodeType": "DELETE_FACE"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/agegender",
+          "color": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "listName": "Recognize Age Gender",
+          "nodeType": "AGE_GENDER"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/registername",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Register Face",
+          "nodeType": "REGISTER_NAME"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/handsup",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Recognize HandsUp",
+          "nodeType": "HANDS_UP"
+        }
+      ]
+    },
+    {
+      "categoryName": "Flow Control",
+      "items": [
+        {
+          "imagePath": "EditorImages/Blocks/IF_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "IF",
+          "nodeType": "IF"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Switch_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Switch",
+          "nodeType": "SWITCH"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Loop_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "While",
+          "nodeType": "WHILE"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Loop_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Loop",
+          "nodeType": "LOOP"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/match03",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Match Texts",
+          "nodeType": "MATCH"
+        }
+      ]
+    },
+    {
+      "categoryName": "Variables",
+      "items": [
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/count02",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Count",
+          "nodeType": "COUNT"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/getindex",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Get Index",
+          "nodeType": "GET_INDEX"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/insert04",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Get element",
+          "nodeType": "GET_ELEM"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/setelem02",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Set element",
+          "nodeType": "SET_ELEM"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/get04",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Insert",
+          "nodeType": "INSERT"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/remove04",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Remove",
+          "nodeType": "REMOVE"
+        },
+        {
+          "imagePath": "EditorImages/BlockIcons_20191101/remove01",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "RemoveAll",
+          "nodeType": "REMOVEALL"
+        }
+      ]
+    },
+    {
+      "categoryName": "Math",
+      "items": [
+        {
+          "imagePath": "EditorImages/AdditionalIcon/Add",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Add",
+          "nodeType": "ADD"
+        },
+        {
+          "imagePath": "EditorImages/AdditionalIcon/Sub",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Substract",
+          "nodeType": "SUB"
+        },
+        {
+          "imagePath": "EditorImages/AdditionalIcon/Mul",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Multiply",
+          "nodeType": "MUL"
+        },
+        {
+          "imagePath": "EditorImages/AdditionalIcon/Divide",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Divide",
+          "nodeType": "DIV"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Random_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Randomize",
+          "nodeType": "RANDOM"
+        }
+      ]
+    },
+    {
+      "categoryName": "Logic",
+      "items": [
+        {
+          "imagePath": "EditorImages/AdditionalIcon/And",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "And",
+          "nodeType": "AND"
+        },
+        {
+          "imagePath": "EditorImages/AdditionalIcon/Or",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Or",
+          "nodeType": "OR"
+        },
+        {
+          "imagePath": "EditorImages/AdditionalIcon/Not3",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Not",
+          "nodeType": "NOT"
+        }
+      ]
+    },
+    {
+      "categoryName": "Comparatives",
+      "items": [
+        {
+          "imagePath": "EditorImages/AdditionalIcon/Equal",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Equal",
+          "nodeType": "EQUAL"
+        },
+        {
+          "imagePath": "EditorImages/AdditionalIcon/Not_Equal",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Not Equal",
+          "nodeType": "NOT_EQUAL"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Less_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Less",
+          "nodeType": "LESS"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/LessEqual_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Less or Equal",
+          "nodeType": "LESS_EQUAL"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/Greater_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Greater",
+          "nodeType": "GREATER"
+        },
+        {
+          "imagePath": "EditorImages/Blocks/GreaterEqual_Icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Greater or Equal",
+          "nodeType": "GREATER_EQUAL"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 496ddf3b454c3894ebb9d880c16a5208
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: group13
+    100002: group14
+    100004: group23
+    100006: group23_group13_pasted__pCylinder1
+    100008: group23_group13_pasted__pCylinder2
+    100010: group23_pCube8
+    100012: group23_polySurface191
+    100014: group23_polySurface194
+    100016: moca05
+    100018: //RootNode
+    100020: neck
+    100022: pasted__pCylinder1
+    100024: pasted__pCylinder1 1
+    100026: polySurface174
+    100028: polySurface191
+    100030: polySurface193
+    100032: polySurface194
+    100034: polySurface195
+    100036: pPipe1
+    100038: transform13
+    100040: transform21
+    100042: transform22
+    100044: transform25
+    100046: transform25 1
+    100048: transform26
+    100050: transform26 1
+    100052: transform27
+    100054: transform28
+    400000: group13
+    400002: group14
+    400004: group23
+    400006: group23_group13_pasted__pCylinder1
+    400008: group23_group13_pasted__pCylinder2
+    400010: group23_pCube8
+    400012: group23_polySurface191
+    400014: group23_polySurface194
+    400016: moca05
+    400018: //RootNode
+    400020: neck
+    400022: pasted__pCylinder1
+    400024: pasted__pCylinder1 1
+    400026: polySurface174
+    400028: polySurface191
+    400030: polySurface193
+    400032: polySurface194
+    400034: polySurface195
+    400036: pPipe1
+    400038: transform13
+    400040: transform21
+    400042: transform22
+    400044: transform25
+    400046: transform25 1
+    400048: transform26
+    400050: transform26 1
+    400052: transform27
+    400054: transform28
+    2100000: lambert17
+    2100002: lambert08
+    2100004: lambert18
+    2100006: lambert02
+    2300000: group23_group13_pasted__pCylinder1
+    2300002: group23_group13_pasted__pCylinder2
+    2300004: group23_pCube8
+    2300006: group23_polySurface191
+    2300008: group23_polySurface194
+    2300010: polySurface195
+    2300012: pPipe1
+    2300014: transform13
+    3300000: group23_group13_pasted__pCylinder1
+    3300002: group23_group13_pasted__pCylinder2
+    3300004: group23_pCube8
+    3300006: group23_polySurface191
+    3300008: group23_polySurface194
+    3300010: polySurface195
+    3300012: pPipe1
+    3300014: transform13
+    4300000: transform13
+    4300002: polySurface195
+    4300004: pPipe1
+    4300006: group23_polySurface194
+    4300008: group23_pCube8
+    4300010: group23_group13_pasted__pCylinder1
+    4300012: group23_group13_pasted__pCylinder2
+    4300014: group23_polySurface191
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

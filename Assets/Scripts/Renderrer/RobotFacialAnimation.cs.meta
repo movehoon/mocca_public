@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dc455f429b5aa6f44b4dba3461283d22
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - eyeOverRightMaterial: {fileID: 2100000, guid: ca7c16baf6869cf459c22ad58906d505,
+      type: 2}
+  - eyeOverLeftMaterial: {fileID: 2100000, guid: 2dca912e1fab6c841b8f683bf963dd4b,
+      type: 2}
+  - mouthMaterial: {fileID: 2100000, guid: 5a5f9c73c9c015b44b055e8c9c9ce43a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

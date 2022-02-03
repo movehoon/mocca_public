@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - EyeLeft
+  - Eyeball_Left
+  - EyeRight
+  - Eyeball_Right
+  - Chick_Left
+  - Chick_Right
+  - Mouth
+  - Nose
+  - Dark_Left
+  - Dark_Right
+  - Tear_Left
+  - Tear_Right
+  - ExecutePoint_Left
+  - ExecutePoint_Right
+  - Event
+  - IFBranch
+  - Graph_Pane
+  - SwitchBranch
+  - HearingTextBox
+  - SayTextBox
+  - Exploder
+  - Eyebrow_Left
+  - Eyebrow_Right
+  - Expression
+  - Facial
+  - Motion
+  - Variable
+  - YESNO
+  - API
+  - Mobility
+  - GeneralNodeBox
+  - VariableList
+  - Variable_Pane
+  - Function_Pane
+  - VariableContext
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

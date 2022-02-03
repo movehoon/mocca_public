@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59600bfd7aed313479d27eae29bac99a, type: 3}
+  m_Name: Normal
+  m_EditorClassIdentifier: 
+  faceName: normal
+  faceParts:
+  - facePartEnum: 0
+    partSprite: {fileID: 21300000, guid: 7b2a2e2875d6eb14ca6396aa65e7d9c1, type: 3}
+    partPosition: {x: -366, y: 94}
+  - facePartEnum: 1
+    partSprite: {fileID: 21300000, guid: a07ed8d617e518f45ad2e6eaa14049dc, type: 3}
+    partPosition: {x: -358, y: 75}
+  - facePartEnum: 2
+    partSprite: {fileID: 21300000, guid: 4b7713e2a3c8df9419bf41dc57e5d9dd, type: 3}
+    partPosition: {x: 349, y: 97}
+  - facePartEnum: 3
+    partSprite: {fileID: 21300000, guid: 976c0a2129ede7241873afbc70f02c7a, type: 3}
+    partPosition: {x: 356, y: 75}
+  - facePartEnum: 4
+    partSprite: {fileID: 21300000, guid: 1873359bc91d79843a73847661fbb36c, type: 3}
+    partPosition: {x: -345, y: -131}
+  - facePartEnum: 5
+    partSprite: {fileID: 21300000, guid: 873493d9373726349bcd4cf6f10305c6, type: 3}
+    partPosition: {x: 366, y: -131}
+  - facePartEnum: 6
+    partSprite: {fileID: 21300000, guid: 3e3f79de5174c734f906662cd9814e25, type: 3}
+    partPosition: {x: -6, y: -253}
+  - facePartEnum: 7
+    partSprite: {fileID: 21300000, guid: 94285540b5d53a74d975c065cf5dd8bf, type: 3}
+    partPosition: {x: -6, y: -51}
+  animDemensions:
+  - facePart: 0
+    type: 2
+    parameter:
+      scale: 1
+      defaultValue: -10
+      amount: 20
+      changeSprite: {fileID: 0}
+  - facePart: 1
+    type: 1
+    parameter:
+      scale: 1
+      defaultValue: 0.9
+      amount: 0.2
+      changeSprite: {fileID: 0}
+  - facePart: 2
+    type: 2
+    parameter:
+      scale: 1
+      defaultValue: 10
+      amount: -20
+      changeSprite: {fileID: 0}
+  - facePart: 3
+    type: 1
+    parameter:
+      scale: 1
+      defaultValue: 0.9
+      amount: 0.2
+      changeSprite: {fileID: 0}
+  - facePart: 4
+    type: 1
+    parameter:
+      scale: 1
+      defaultValue: 0.9
+      amount: 0.2
+      changeSprite: {fileID: 0}
+  - facePart: 5
+    type: 1
+    parameter:
+      scale: 1
+      defaultValue: 0.9
+      amount: 0.2
+      changeSprite: {fileID: 0}
+  - facePart: 6
+    type: 1
+    parameter:
+      scale: 1
+      defaultValue: 0.9
+      amount: 0.2
+      changeSprite: {fileID: 0}

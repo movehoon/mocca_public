@@ -1,0 +1,843 @@
+{
+  "categories": [
+    {
+      "categoryName": "프로세스",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/ic-1-start",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "시작",
+          "nodeType": "START"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-1-stop",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "멈춤",
+          "nodeType": "STOP"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-1-pause",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "일시정지",
+          "nodeType": "PAUSE"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-1-restart",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "다시 시작",
+          "nodeType": "RESUME"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-time",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "()초 기다리기",
+          "nodeType": "DELAY"
+        }
+      ]
+    },
+    {
+      "categoryName": "디버그",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/ic-2-log",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "로그",
+          "nodeType": "LOG"
+        }
+      ]
+    },
+    {
+      "categoryName": "로봇",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/ic-3-speak",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "말하기",
+          "nodeType": "SAY"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-3-robotic",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "통합표현하기",
+          "nodeType": "EXPRESS"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-3-wink",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "표정짓기",
+          "nodeType": "FACIAL"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-3-gesture",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "몸짓하기",
+          "nodeType": "MOTION"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-3-move",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "위치 이동하기",
+          "nodeType": "MOBILITY"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-3-pause",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "말하기 멈추기",
+          "nodeType": "SAY_STOP"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-3-pause-re",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "통합표현 멈추기",
+          "nodeType": "EXPRESS_STOP"
+        }
+      ]
+    },
+    {
+      "categoryName": "글자&말하기",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/ic-4-microphone",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "사용자로부터 입력받기",
+          "nodeType": "SPEECH_REC"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-4-hammer",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "긍/부정 판단",
+          "nodeType": "YESNO"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-4-number",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "숫자 추출",
+          "nodeType": "PICKNUM"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-4-raising",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "선택지 추출",
+          "nodeType": "CHOICE"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-4-connection",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "문자열 연결",
+          "nodeType": "STRCAT"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-4-chatbot",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "챗봇",
+          "nodeType": "CHAT"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-4-api",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "사용자 API",
+          "nodeType": "USER_API"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-4-camera",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "카메라 활용 사용자 API",
+          "nodeType": "USER_API_CAMERA"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/dialogue_icon",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "대화",
+          "nodeType": "DIALOGUE"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/wiki_qna",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "똑똑이",
+          "nodeType": "WIKI_QNA"
+        }
+      ]
+    },
+
+    {
+      "categoryName": "이미지",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/teachable_machine_logo",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "티처블 머신",
+          "nodeType": "TEACHABLE_MACHINE_SERVER"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-5-cog",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "성별 인식",
+          "nodeType": "GENDER"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-5-feeling",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "감정 인식",
+          "nodeType": "EMOTION"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-5-users",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "사람 수 인식",
+          "nodeType": "DETECT_PERSON"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-5-movement",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "동작 인식",
+          "nodeType": "POSE_REC"
+        }
+      ]
+    },
+    {
+      "categoryName": "흐름 제어",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/ic-6-road",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "if",
+          "nodeType": "IF"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-6-directions",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "switch",
+          "nodeType": "SWITCH"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-6-while",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "while",
+          "nodeType": "WHILE"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-6-loop",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "for",
+          "nodeType": "LOOP"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-6-loop-break",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "break",
+          "nodeType": "BREAK"
+        },
+
+        {
+          "imagePath": "EditorImages/icon_button/ic-6-loop-continue",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "continue",
+          "nodeType": "CONTINUE"
+        }
+      ]
+    },
+    {
+      "categoryName": "리스트 변수",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-c",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "항목 개수",
+          "nodeType": "COUNT"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-i",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "항목 []의 위치",
+          "nodeType": "GET_INDEX"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-v",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "()번째 항목",
+          "nodeType": "GET_ELEM"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-re",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "()번째 항목 바꾸기",
+          "nodeType": "SET_ELEM"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-q",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "항목 []을 포함하는가?",
+          "nodeType": "EXIST_ELEM"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-i-re",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "()번째에 항목 추가하기",
+          "nodeType": "INSERT"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-plus",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "맨 뒤에 항목 추가하기",
+          "nodeType": "PUSH_ELEM"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-delete-i",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "()번째 항목 삭제",
+          "nodeType": "REMOVE"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-delete-v",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "항목 [] 삭제",
+          "nodeType": "REMOVE_ELEM"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-7-delete",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "항목 모두 삭제",
+          "nodeType": "REMOVEALL"
+        }
+      ]
+    },
+    {
+      "categoryName": "수학",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/ic-8-plus",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "더하기",
+          "nodeType": "ADD"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-8-minus-rect",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "빼기",
+          "nodeType": "SUB"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-8-multi",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "곱하기",
+          "nodeType": "MUL"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-8-re",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "나누기",
+          "nodeType": "DIV"
+        },
+        {
+          "imagePath": "EditorImages/new_layout_images/abs",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "절대값",
+          "nodeType": "ABS"
+        },
+        {
+          "imagePath": "EditorImages/new_layout_images/math_function",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "반올림",
+          "nodeType": "ROUND"
+        },
+        {
+          "imagePath": "EditorImages/new_layout_images/math_function",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "올림",
+          "nodeType": "ROUND_UP"
+        },
+
+        {
+          "imagePath": "EditorImages/new_layout_images/math_function",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "내림",
+          "nodeType": "ROUND_DOWN"
+        },
+        {
+          "imagePath": "EditorImages/new_layout_images/math_function",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "나머지",
+          "nodeType": "MOD"
+        },
+        {
+          "imagePath": "EditorImages/new_layout_images/power_of_number",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "거듭제곱",
+          "nodeType": "POWER"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-8-shuffle",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "랜덤",
+          "nodeType": "RANDOM"
+        }
+      ]
+    },
+    {
+      "categoryName": "논리연산",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/ic-9-and",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "And 연산",
+          "nodeType": "AND"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-9-or",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Or 연산",
+          "nodeType": "OR"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-9-not",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "Not 연산",
+          "nodeType": "NOT"
+        }
+      ]
+    },
+    {
+      "categoryName": "비교",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/ic-10-same",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "같음",
+          "nodeType": "EQUAL"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-10-notsame",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "같지 않음",
+          "nodeType": "NOT_EQUAL"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-10-small",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "작음",
+          "nodeType": "LESS"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-10-smallsame",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "작거나 같음",
+          "nodeType": "LESS_EQUAL"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-10-big",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "큼",
+          "nodeType": "GREATER"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-10-bigsame",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "크거나 같음",
+          "nodeType": "GREATER_EQUAL"
+        }
+      ]
+    },
+    {
+      "categoryName": "베타 서비스",
+      "items": [
+        {
+          "imagePath": "EditorImages/icon_button/Detect_Object",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "물체 수 인식",
+          "nodeType": "DETECT_OBJECT"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-5-scan",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "얼굴 인식",
+          "nodeType": "RECOG_FACE"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-5-face",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "얼굴 정보 삭제",
+          "nodeType": "DELETE_FACE"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-5-age",
+          "color": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "listName": "나이대와 성별 인식",
+          "nodeType": "AGE_GENDER"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-5-detection",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "얼굴 등록",
+          "nodeType": "REGISTER_NAME"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/ic-5-hand",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "손든 사람 인식",
+          "nodeType": "HANDS_UP"
+        },
+        {
+          "imagePath": "EditorImages/icon_button/pizza",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "listName": "피자 주문",
+          "nodeType": "CHATBOT_PIZZA_ORDER"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+GREETING, 인사
+HAPPY, 기쁨
+EXCITED, 흥분
+YES, 긍정
+THINKING, 생각
+CURIOUS, 호기심
+CHILL, 냉담
+ANGRY, 화남
+FEAR, 두려움
+CONFUSED, 혼란
+NO, 부정

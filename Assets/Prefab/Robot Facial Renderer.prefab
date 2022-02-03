@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1426007898475854}
+  m_IsPrefabParent: 1
+--- !u!1 &1426007898475854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4643550654959516}
+  - component: {fileID: 114947947274173968}
+  - component: {fileID: 114169810668968022}
+  - component: {fileID: 114680274838191588}
+  m_Layer: 0
+  m_Name: Robot Facial Renderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4643550654959516
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426007898475854}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114169810668968022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426007898475854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4f7f0de022d1145be17bd8b2425486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFaceName: normal
+  robotFacialData: {fileID: 114947947274173968}
+  robotFacialAnimator: {fileID: 114680274838191588}
+--- !u!114 &114680274838191588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426007898475854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392b9b3bc3c58e4448bcd7577c9663cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotFacialData: {fileID: 114947947274173968}
+  animationDemensions: []
+--- !u!114 &114947947274173968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1426007898475854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a447041c23fbe2b4b87232b16303307d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  partData:
+  - {fileID: 11400000, guid: eb6004318da96634b947914a40b6b5cc, type: 2}
+  - {fileID: 11400000, guid: 370323d1a607ef549bcd5057b4dd1053, type: 2}
+  - {fileID: 11400000, guid: 019edbc320afd914898f6d1b33ca2688, type: 2}
+  - {fileID: 11400000, guid: 1aab034d90fd07d41bb9358bcf4fb896, type: 2}
+  - {fileID: 11400000, guid: 7c8f30e0ea86e2c47aa33b0828545979, type: 2}
+  - {fileID: 11400000, guid: 966268f420d796540b4aa0c18dbefbbb, type: 2}
+  - {fileID: 11400000, guid: 1db8ee38d50b009499c321bc01634341, type: 2}
+  - {fileID: 11400000, guid: ef4565e924564b44fa937ecdf88bf4fe, type: 2}
+  - {fileID: 11400000, guid: bda38163d5ef23f4fbcf367c1d40a25e, type: 2}
+  - {fileID: 11400000, guid: d5fbbff636b52cf49b738179bd605cac, type: 2}
+  - {fileID: 11400000, guid: c290cc735c7e885419600e8500baef36, type: 2}
+  - {fileID: 11400000, guid: 6e9c69cf8e8dfa64b8924b3eea57b53f, type: 2}
+  - {fileID: 11400000, guid: 7f9cfc72fe4b19848a3b037d287d59d3, type: 2}
+  - {fileID: 11400000, guid: 9435769a9924b5843bb17678ebb40989, type: 2}
+  - {fileID: 11400000, guid: 1f281ee52d0a5e648aaa8645b307db36, type: 2}

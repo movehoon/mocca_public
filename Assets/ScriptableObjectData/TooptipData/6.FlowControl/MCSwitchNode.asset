@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015e8c0d4b652de4cb7951765745d78c, type: 3}
+  m_Name: MCSwitchNode
+  m_EditorClassIdentifier: 
+  nodeType: 1001
+  tooltipImageSprite: {fileID: 21300000, guid: e475a9c727706a64fb95762c23852aec, type: 3}
+  nodeName: switch
+  inputTexts:
+  - "\uC785\uB825 : Number"
+  outputTexts:
+  - "\uCD9C\uB825 : \uC5C6\uC74C "
+  descTexts: "\uC124\uBA85 : \uC785\uB825\uB41C \uAC12\uC5D0 \uB530\uB77C \uBD84\uAE30"

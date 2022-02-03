@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/_Scenes/1.D2EEditor_StartScene.unity
+    guid: ec2a6e3df462478448b2f711d10d06ba
+  - enabled: 0
+    path: Assets/_Scenes/2.D2EEditor_Editor_NewBlock_Ing_layout_change.unity
+    guid: a146d7a7592d19440b3e5c6546600947
+  m_configObjects: {}

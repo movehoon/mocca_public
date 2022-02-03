@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e97845d4c99bb14e8759649f4886659, type: 3}
+  m_Name: Sleepy
+  m_EditorClassIdentifier: 
+  faceName: sleepy
+  faceParts:
+  - facialPartEnum: 8
+    partSprite: {fileID: 21300000, guid: 1643d81a226e1584c83ad4cc1b74058e, type: 3}
+    partPosition: {x: -3.312, y: 1}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 0
+    partSprite: {fileID: 21300000, guid: 2a16a71da0dda764bbaba8fc2ed1779e, type: 3}
+    partPosition: {x: -3.338, y: 1.551}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 9
+    partSprite: {fileID: 21300000, guid: 072cf251c92a715468db3d7f60bfd251, type: 3}
+    partPosition: {x: 3.282, y: 1.004}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 2
+    partSprite: {fileID: 21300000, guid: df954ca4ca9727e42bb16f87787bce1f, type: 3}
+    partPosition: {x: 3.291, y: 1.543}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 4
+    partSprite: {fileID: 21300000, guid: 50208621b6a6f0947a7ef58ccc1bcb3f, type: 3}
+    partPosition: {x: -3.248, y: -0.388}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 5
+    partSprite: {fileID: 21300000, guid: 3f9bd1e60897a234cb7ff9f71e804cb9, type: 3}
+    partPosition: {x: 3.049, y: -0.391}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 7
+    partSprite: {fileID: 21300000, guid: e0e0a7935dc74374d894045044113eaf, type: 3}
+    partPosition: {x: -0.051, y: 0.557}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 6
+    partSprite: {fileID: 21300000, guid: e76351697d8e5824aadf956eb4296544, type: 3}
+    partPosition: {x: 0.018, y: -1.558}
+    partScale: {x: 1, y: 1}
+  animDemensions: []

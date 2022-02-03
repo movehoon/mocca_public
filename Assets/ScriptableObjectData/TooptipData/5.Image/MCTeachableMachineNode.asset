@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015e8c0d4b652de4cb7951765745d78c, type: 3}
+  m_Name: MCTeachableMachineNode
+  m_EditorClassIdentifier: 
+  nodeType: 4502
+  tooltipImageSprite: {fileID: 21300000, guid: 830a6272fb5403041905e2b91a70b4af, type: 3}
+  nodeName: "\uD2F0\uCC98\uBE14 \uBA38\uC2E0"
+  inputTexts:
+  - "\uC785\uB825 : \uC5C6\uC74C "
+  outputTexts:
+  - "\uCD9C\uB825 : Number"
+  descTexts: "\uC124\uBA85 : TeachableMachine\uC73C\uB85C \uC81C\uC791\uD55C \uB525\uB7EC\uB2DD
+    \uBAA8\uB4C8\uC744 \uC0AC\uC6A9\uD574 classification\uC744 \uC218\uD589\uD568."

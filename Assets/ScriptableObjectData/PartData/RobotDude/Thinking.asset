@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e97845d4c99bb14e8759649f4886659, type: 3}
+  m_Name: Thinking
+  m_EditorClassIdentifier: 
+  faceName: thinking
+  faceParts:
+  - facialPartEnum: 0
+    partSprite: {fileID: 21300000, guid: 5c2c5bf4973d2b94cb518023473882b9, type: 3}
+    partPosition: {x: -3.44, y: 1.087}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 1
+    partSprite: {fileID: 21300000, guid: 7c17ffaf8adca154c8accc05fdcdc35e, type: 3}
+    partPosition: {x: -3.83, y: 1.337}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 2
+    partSprite: {fileID: 21300000, guid: 237fdfc081d7fc4498d0873dcf552e00, type: 3}
+    partPosition: {x: 3.3, y: 1.079}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 3
+    partSprite: {fileID: 21300000, guid: cccb4be1a5a24cd4781df66d10e4f15a, type: 3}
+    partPosition: {x: 2.92, y: 1.327}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 4
+    partSprite: {fileID: 21300000, guid: c5969e0b0d02dc3448c2b3d9cdaf0450, type: 3}
+    partPosition: {x: -3.303, y: -1.502}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 5
+    partSprite: {fileID: 21300000, guid: 32caead194d42064ab7b43b393dd4c79, type: 3}
+    partPosition: {x: 3.459, y: -1.528}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 7
+    partSprite: {fileID: 21300000, guid: 56b6ed36e1d5a7342b5e8b0d2afba1bd, type: 3}
+    partPosition: {x: -0.053, y: -0.003}
+    partScale: {x: 1, y: 1}
+  - facialPartEnum: 6
+    partSprite: {fileID: 21300000, guid: 3728ad7d17bf518489d844e19f63b83d, type: 3}
+    partPosition: {x: -0.05, y: -2.377}
+    partScale: {x: 1, y: 1}
+  animDemensions: []

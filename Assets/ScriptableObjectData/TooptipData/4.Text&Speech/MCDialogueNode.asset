@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015e8c0d4b652de4cb7951765745d78c, type: 3}
+  m_Name: MCDialogueNode
+  m_EditorClassIdentifier: 
+  nodeType: 4016
+  tooltipImageSprite: {fileID: 21300000, guid: 81df7030d9ee3dc4baf14c599ef4157b, type: 3}
+  nodeName: "\uB300\uD654"
+  inputTexts:
+  - "\uC785\uB825 : String "
+  outputTexts:
+  - "\uCD9C\uB825 : String"
+  descTexts: "\uC124\uBA85: rivescript \uBB38\uBC95 \uAE30\uBC18\uC73C\uB85C \uB300\uD654\uB97C
+    \uD568.\uBB38\uBC95\uC740 rivescript.com \uC5D0\uC11C \uD655\uC778\uD560 \uC218
+    \uC788\uC73C\uBA70, \uBE14\uB85D\uC758 \uC785\uB825\uC740 \uBE14\uB85D \uC885\uB8CC
+    \uD0A4\uC6CC\uB4DC\uB85C \uC0AC\uC6A9 "
